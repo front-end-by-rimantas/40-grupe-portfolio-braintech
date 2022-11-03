@@ -1,4 +1,4 @@
-# braintech
+# Braintech
 
 _website design project_
 
@@ -48,12 +48,12 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 There is no tests for this project.
 
-## 🎅 Authors
+## 😎 Authors
 
-Žilvinas: [Github] (https://github.com/zilva149)
-Monika: [Github] (https://github.com/liepsneletech)
-Jan: [Github] (https://github.com/Dorenus)
-Rasa: [Github] (https://github.com/Rasosm)
+Žilvinas: [Github] (https://github.com/zilva149)<br>
+Monika: [Github] (https://github.com/liepsneletech)<br>
+Jan: [Github] (https://github.com/Dorenus)<br>
+Rasa: [Github] (https://github.com/Rasosm)<br>
 Evgeny: [Github] (https://github.com/EvgenySivaykin)
 
 ## ⚠️ License
