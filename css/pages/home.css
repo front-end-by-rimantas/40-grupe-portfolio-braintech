@@ -1,4 +1,20 @@
 /* base */
+@import '../base/base.css';
+@import '../base/layout.css';
+/* 3rd-party */
+@import '../3rd-party/fontawesome.min.css';
+/* components */
+@import '../components/header.css';
+@import '../components/buttons.css';
+@import '../components/slider.css';
+@import '../components/feature-card.css';
+@import '../components/progress-bar.css';
+@import '../components/feature-box.css';
+@import '../components/forms.css';
+@import '../components/blog-card.css';
+@import '../components/testimonial.css';
+@import '../components/socials.css';
+@import '../components/footer.css';
 
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
