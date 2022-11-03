@@ -2,7 +2,8 @@
 @import '../base/base.css';
 @import '../base/layout.css';
 /* 3rd-party */
-@import '../3rd-party/fontawesome.min.css';
+@import '../3rd-party/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@300;400;500;600;700&display=swap');
 /* components */
 @import '../components/header.css';
 @import '../components/buttons.css';
@@ -17,6 +18,10 @@
 @import '../components/footer.css';
 
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
+
+body {
+    font-family: Livvic;
+}
 
 /* HEADER-start */
 /* HEADER-end */
