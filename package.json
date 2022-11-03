@@ -10,11 +10,29 @@
     "test:coverage": "jest --coverage"
   },
   "keywords": [],
-  "author": "Zilvinas: [Github] (https://github.com/zilva149),
-	           Monika: [Github] (https://github.com/liepsneletech),
-             Jan: [Github] (https://github.com/Dorenus),
-             Rasa: [Github] (https://github.com/Rasosm),
-             Evgeny: [Github] (https://github.com/EvgenySivaykin)",
+  "author": [
+      {
+         "name": "Zilvinas",
+         "url": "https://github.com/zilva149",
+      }
+	    {
+         "name": "Monika",
+         "url": "https://github.com/liepsneletech",
+      }
+      {
+         "name": "Janas",
+         "url": "https://github.com/Dorenus",
+      }
+      {
+         "name": "Rasa",
+         "url": "https://github.com/Rasosm",
+      }
+      {
+         "name": "Evgeny",
+         "url": "https://github.com/EvgenySivaykin",
+      }
+           ],
+      
   "license": "MIT",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.15.0",
