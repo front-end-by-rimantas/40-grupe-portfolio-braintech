@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Livvic';
+    /* 300 */
+    src: url(../../webfonts/livvic/Livvic-Light.ttf);
+    /* 400 */
+    src: url(../../webfonts/livvic/Livvic-Regular.ttf);
+    /* 500 */
+    src: url(../../webfonts/livvic/Livvic-Medium.ttf);
+    /* 600 */
+    src: url(../../webfonts/livvic/Livvic-SemiBold.ttf);
+    /* 700 */
+    src: url(../../webfonts/livvic/Livvic-Bold.ttf);
+}
