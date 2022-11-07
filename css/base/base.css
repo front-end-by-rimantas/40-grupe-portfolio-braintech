@@ -2,7 +2,7 @@
 
 :root {
     --bg-grad-blue: linear-gradient(-270deg, #03228f 34%, #0e73e4 100%);
-    --bg-lgrey: #F6F7F9;
+    --bg-lgray: #F6F7F9;
     --bg-grad-dblue: linear-gradient(330deg, #00005b 0%, #020275 90%);
     --blue: #007bff;
     --indigo: #6610f2;
@@ -16,7 +16,7 @@
     --cyan: #17a2b8;
     --white: #fff;
     --gray: #6c757d;
-    --gray-dark: #343a40;
+    --dgray: #343a40;
     --primary: #007bff;
     --secondary: #6c757d;
     --success: #28a745;
