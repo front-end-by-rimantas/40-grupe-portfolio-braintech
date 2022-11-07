@@ -1,13 +1,125 @@
+/* ROOT COLORS AND GRADIENTS */
+
+:root {
+    --bg-grad-blue: linear-gradient(-270deg, #03228f 34%, #0e73e4 100%);
+    --bg-lgrey: #F6F7F9;
+    --bg-grad-dblue: linear-gradient(330deg, #00005b 0%, #020275 90%);
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --lgray: #9FA4B4;
+}
+
+/* FONT-FACE */
+
 @font-face {
-    font-family: 'Livvic';
-    /* 300 */
-    src: url(../../webfonts/livvic/Livvic-Light.ttf);
-    /* 400 */
-    src: url(../../webfonts/livvic/Livvic-Regular.ttf);
-    /* 500 */
-    src: url(../../webfonts/livvic/Livvic-Medium.ttf);
-    /* 600 */
-    src: url(../../webfonts/livvic/Livvic-SemiBold.ttf);
-    /* 700 */
-    src: url(../../webfonts/livvic/Livvic-Bold.ttf);
+    font-family: "Livvic";
+    src: url(../../webfonts/livvic/Livvic-Light.ttf) format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Livvic";
+    src: url(../../webfonts/livvic/Livvic-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Livvic";
+    src: url(../../webfonts/livvic/Livvic-Medium.ttf) format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Livvic";
+    src: url(../../webfonts/livvic/Livvic-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Livvic";
+    src: url(../../webfonts/livvic/Livvic-Bold.ttf) format("truetype");
+    font-weight: 700;
+}
+
+/* CSS RESET */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+body * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Livvic', sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 59px;
+}
+
+h2 {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 46px;
+}
+
+h4 {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+h6 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
 }
