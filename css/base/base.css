@@ -112,7 +112,8 @@ p {
     line-height: 26px;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
 
