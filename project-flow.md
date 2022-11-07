@@ -4,17 +4,14 @@
 
 - Frontend projektas su pavyzdiniais duomenimis, kuriuos imsime iš susikurtų JSON failų asinchroniško JavaScript’o būdu (fetch(), async, await).
 - Bendravimas Github’e atliekamas anglų kalba, Discord’e lietuvių.
-- Kada darom susitikimus darbams aptarti? Reikia nuspręsti bendrai visiems. Siūlau daryti rytinius stand-up’us, kaip siūlė Rimantas, kiekvieną rytą pasisakyti savo užduoties statusą, tokiu principu:
-    - Ką dariau vakar?
-    - Ką darysiu šiandien?
-    - Ar kilo kokių kliūčių?
+- Užduočių aptarimas bus vykdomas gyvai.
 
 ## Užduoties atlikimas:
 
 - ### Nuo ko pradėti:
     - Perskaičius atliekamą užduotį visuomet iš anksto pasiteirauti dėl kylančių klausimų. Užduotis bus galima detaliau papildyti.
     - Prieš darbą nusikopijuoti repozitoriją `git clone <adresas>` komanda terminale arba per vscode source control’ą.
-    - Susikurti feature-branch’ą ir savą užduotį atlikinėti ten.
+    - Pradėjus atlikinėti užduotį, susikurti feature-branch’ą ir savą užduotį atlikinėti ten.
     - Prieš darbą nepamiršti susirašyti dependencies `npm i` komanda terminale.
     - Pasileisti dead-server’į su `npm run dev` komanda.
 - ### Bendros darbo taisyklės:
@@ -26,7 +23,7 @@
     - Padarytų komponentų struktūrą laikysime html-templates.html faile. Juos naudojant viskas, ką reiks padaryti, tai copy/paste struktūrą ir uždėti tinkamą klasę.
     - Responsive dizainas turi būti atliekamas pagal nutylėjimą, užduotyje nurodytuose lūžio taškuose.
 - ### Ką daryti, jei tavo darbo metu buvo atnaujintas develop branch’as:
-    - Susinchronizuoti savo feature-branch’ą su atnaujintu develop branch’u. Tą galima padaryti iš savo feature-branch’o su `git merge origin` komanda terminale (berods :D, reikės pasitikslinti dėl šito).
+    - Susinchronizuoti savo feature-branch’ą su atnaujintu develop branch’u. Tą galima padaryti iš savo feature-branch’o su `git merge origin` komanda terminale.
     - Jei kyla git konfliktai, juos reikia spręsti. Reikia pasitikslinti kokiu principu tai darysime.
     - Jei sugriūna savasis dizainas po atnaujinimų, prisiimame kaltę sau ir keičiame savo kodą, kad veiktų.
 - ### Ką daryti prieš darant Pull Request’ą?
