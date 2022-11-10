@@ -35,10 +35,12 @@
     line-height: 30px;
     margin-bottom: 25px;
     transition: all 0.1s;
+    color: #1c1b1b;
 }
 
 .feature-des {
     font-size: 16px;
     font-weight: 400;
     line-height: 29px;
+    color: #454545;
 }
