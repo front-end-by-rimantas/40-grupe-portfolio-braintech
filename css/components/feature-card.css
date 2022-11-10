@@ -1,7 +1,7 @@
 .feature-card {
     box-shadow: var(--default-shadow);
     border-radius: 10px;
-    padding: 50px 36px;
+    padding: 50px 30px;
     transition: all 0.2s;
 }
 
@@ -47,4 +47,11 @@
 .feature-card:hover .feature-title,
 .feature-card:hover .feature-des {
     color: #fff;
+}
+
+@media (min-width: 1200px) {
+    .feature-card {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
 }
