@@ -1,1 +1,44 @@
+.feature-card {
+    box-shadow: var(--default-shadow);
+    border-radius: 10px;
+    padding: 50px 36px;
+    transition: all 0.2s;
+}
 
+.feature-card:hover {
+    background-color: var(--orange);
+    color: #fff;
+}
+
+.feature-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 40px;
+}
+
+.feature-card:hover .feature-icon {
+    filter: brightness(0) invert(1);
+    animation: scaleup 0.3s ease-out;
+}
+
+@keyframes scaleup {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.feature-title {
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 25px;
+    transition: all 0.1s;
+}
+
+.feature-des {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+}
