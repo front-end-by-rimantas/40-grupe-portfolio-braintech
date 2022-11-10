@@ -7,7 +7,6 @@
 
 .feature-card:hover {
     background-color: var(--orange);
-    color: #fff;
 }
 
 .feature-icon {
@@ -34,7 +33,7 @@
     font-weight: 600;
     line-height: 30px;
     margin-bottom: 25px;
-    transition: all 0.1s;
+    transition: all 0.1s 0.08s;
     color: #1c1b1b;
 }
 
@@ -43,4 +42,9 @@
     font-weight: 400;
     line-height: 29px;
     color: #454545;
+}
+
+.feature-card:hover .feature-title,
+.feature-card:hover .feature-des {
+    color: #fff;
 }
