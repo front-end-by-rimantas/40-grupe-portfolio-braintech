@@ -1,0 +1,27 @@
+.testimonial-card {
+    background-color: #fff;
+    padding: 46px 40px 90px 40px;
+    border-radius: 10px;
+    box-shadow: var(--default-shadow);
+}
+.quote-img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.testimonial-des {
+}
+.testimonial-author-box {
+    display: flex;
+}
+.testimonial-img {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.testimonial-author-name {
+}
+.testimonial-author-position {
+}
