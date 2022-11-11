@@ -11,9 +11,13 @@
     margin-bottom: 10px;
 }
 .testimonial-des {
+    font-size: 17px;
+    line-height: 33px;
 }
 .testimonial-author-box {
     display: flex;
+    align-items: center;
+    gap: 15px;
 }
 .testimonial-img {
     display: inline-block;
