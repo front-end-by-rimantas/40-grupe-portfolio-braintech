@@ -2,30 +2,18 @@
 
 :root {
     --bg-grad-blue: linear-gradient(-270deg, #03228f 34%, #0e73e4 100%);
-    --bg-lgray: #f6f7f9;
     --bg-grad-dblue: linear-gradient(330deg, #00005b 0%, #020275 90%);
-    --blue: #007bff;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #dc3545;
-    --orange: #fd6509;
-    --yellow: #ffc107;
-    --green: #28a745;
-    --teal: #20c997;
-    --cyan: #17a2b8;
-    --white: #fff;
-    --gray: #6c757d;
-    --dgray: #343a40;
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --success: #28a745;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
-    --light: #f8f9fa;
-    --dark: #343a40;
-    --lgray: #9fa4b4;
+    --bg-lgray: #f6f7f9;
+    --dgray: #454545;
+    --black: #101010;
+    --blue: #03228f;
+    --lblue: #4e95ed;
+    --orange: #f27c1e;
+    --dorange: #dd4c23;
+    --yellow: #f5be18;
+    --cyan: #14d2f5;
+    --pink: #f30876;
+    --teal: #13e1af;
     --default-shadow: 0px 0px 50px 11px rgba(95, 138, 236, 0.05);
 }
 
