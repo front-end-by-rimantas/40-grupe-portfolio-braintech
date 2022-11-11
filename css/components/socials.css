@@ -1,0 +1,66 @@
+.sidebar-socials {
+    display: flex;
+    gap: 10px;
+}
+
+.sidebar-socials > .socials {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #032390;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.sidebar-socials > .socials:hover {
+    opacity: 0.75;
+    transition: all ease-in-out 0.2s;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-socials > .socials {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #555;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    transition: all ease-out 0.2s;
+}
+
+.footer-socials > .socials:hover {
+    background-color: var(--blue);
+    color: white;
+    transition: all ease-out 0.2s;
+}
+
+.header-socials {
+    display: flex;
+}
+
+.header-socials > .socials {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    transition: all ease-out 0.2s;
+}
+
+.header-socials > .socials:hover {
+    background-color: white;
+    color: blue;
+    transition: all ease-out 0.2s;
+}
