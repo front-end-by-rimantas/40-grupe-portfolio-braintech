@@ -1,4 +1,5 @@
 .primary-btn {
+    font-weight: 500;
     display: inline-block;
     border-radius: 2em;
     padding: 0.9em 2.5em;
@@ -12,6 +13,7 @@
     background-image: linear-gradient(30deg, var(--orange), var(--dorange));
 }
 .secondary-btn {
+    font-weight: 600;
     display: inline-block;
     font-size: 14px;
     border-radius: 1.6em;
