@@ -4,12 +4,12 @@
     padding: 0.9em 2.5em;
     margin: 10px 0;
     text-decoration: none;
-    background-image: linear-gradient(30deg, #dd4c23, #f27c1e);
+    background-image: linear-gradient(30deg, var(--dorange), var(--orange));
     color: #fff;
     cursor: pointer;
 }
 .primary-btn:hover {
-    background-image: linear-gradient(30deg, #f27c1e, #dd4c23);
+    background-image: linear-gradient(30deg, var(--orange), var(--dorange));
 }
 .secondary-btn {
     display: inline-block;
@@ -18,10 +18,10 @@
     padding: 0.5em 1.4em;
     margin: 10px 0;
     text-decoration: none;
-    background: linear-gradient(to right, #03228f, #4e95ed);
+    background: linear-gradient(to right, var(--blue), var(--lblue));
     color: #fff;
     cursor: pointer;
 }
 .secondary-btn:hover {
-    background: linear-gradient(to left, #03228f, #4e95ed);
+    background: linear-gradient(to right, var(--blue), var(--lblue));
 }
