@@ -1,0 +1,27 @@
+.primary-btn {
+    display: inline-block;
+    border-radius: 2em;
+    padding: 0.9em 2.5em;
+    margin: 10px 0;
+    text-decoration: none;
+    background-image: linear-gradient(30deg, #dd4c23, #f27c1e);
+    color: #fff;
+    cursor: pointer;
+}
+.primary-btn:hover {
+    background-image: linear-gradient(30deg, #f27c1e, #dd4c23);
+}
+.secondary-btn {
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 1.6em;
+    padding: 0.5em 1.4em;
+    margin: 10px 0;
+    text-decoration: none;
+    background: linear-gradient(to right, #03228f, #4e95ed);
+    color: #fff;
+    cursor: pointer;
+}
+.secondary-btn:hover {
+    background: linear-gradient(to left, #03228f, #4e95ed);
+}
