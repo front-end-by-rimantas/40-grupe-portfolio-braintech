@@ -6,12 +6,16 @@
 .progress-bar > .top {
     display: flex;
     justify-content: space-between;
-    color: (--dark);
-    font-size: 18px;
+    color: var(--dark);
+    font-size: 14px;
+}
+.value {
+    font-size: 16px;
+    font-weight: bold;
 }
 .progress-bar > .bottom {
-    height: 6px;
-    background-color: (--lgray);
+    height: 7px;
+    background-color: var(--lgray);
 }
 .progress-bar > .bottom > .progress {
     height: 100%;
@@ -21,18 +25,7 @@
     height: 100%;
     width: 100%;
     animation: loading 2s forwards;
-}
-.bar.bar1 {
     background-color: var(--orange);
-}
-.bar.bar2 {
-    background-color: var(--teal);
-}
-.bar.bar3 {
-    background-color: var(--info);
-}
-.bar.bar4 {
-    background-color: var(--pink);
 }
 
 @keyframes loading {
