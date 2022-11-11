@@ -10,7 +10,7 @@
     "test:coverage": "jest --coverage"
   },
   "keywords": [],
-  "author": "Zilvinas, Monika, Rasa, Janas, Evgeny",  
+  "author": "Zilvinas, Monika, Rasa, Janas, Evgeny",
   "license": "MIT",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.15.0",
