@@ -2,6 +2,7 @@
 
 :root {
     --bg-grad-blue: linear-gradient(-270deg, #03228f 34%, #0e73e4 100%);
+    --lgray: #eeeeee;
     --bg-grad-dblue: linear-gradient(330deg, #00005b 0%, #020275 90%);
     --bg-lgray: #f6f7f9;
     --dgray: #454545;
