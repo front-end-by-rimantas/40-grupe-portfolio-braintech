@@ -1,0 +1,45 @@
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.progress-bar > .top {
+    display: flex;
+    justify-content: space-between;
+    color: (--dark);
+    font-size: 18px;
+}
+.progress-bar > .bottom {
+    height: 6px;
+    background-color: (--lgray);
+}
+.progress-bar > .bottom > .progress {
+    height: 100%;
+    width: 100%;
+}
+.progress-bar .progress > .bar {
+    height: 100%;
+    width: 100%;
+    animation: loading 2s forwards;
+}
+.bar.bar1 {
+    background-color: var(--orange);
+}
+.bar.bar2 {
+    background-color: var(--teal);
+}
+.bar.bar3 {
+    background-color: var(--info);
+}
+.bar.bar4 {
+    background-color: var(--pink);
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
