@@ -49,12 +49,17 @@
 }
 
 .blog-info .user {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
+    line-height: 1em;
 }
 
 .blog-info i {
     color: #2677db;
+}
+
+.fa-user {
+    font-size: 14px;
 }
 
 .blog-content-text a {
