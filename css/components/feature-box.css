@@ -1,0 +1,32 @@
+.feature-box {
+    display: flex;
+    margin: 0px 0px 25px;
+}
+
+.feature-box > .left-column {
+    margin-top: 9px;
+    display: flex;
+    width: 58px;
+    flex-direction: column;
+}
+.feature-box > .right-column {
+    width: auto;
+    flex-direction: column;
+}
+
+.feature-box > .right-column > .title {
+    margin-left: 22px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: var(--black);
+}
+
+.feature-box > .right-column > .text {
+    margin-left: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    color: var(--dgray);
+}
