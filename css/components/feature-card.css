@@ -1,0 +1,58 @@
+.feature-card {
+    box-shadow: var(--default-shadow);
+    border-radius: 10px;
+    padding: 50px 30px;
+    transition: all 0.2s;
+    background-color: #fff;
+}
+
+.feature-card:hover {
+    background-color: var(--orange);
+}
+
+.feature-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 40px;
+}
+
+.feature-card:hover .feature-icon {
+    filter: brightness(0) invert(1);
+    animation: scaleup 0.3s ease-out;
+}
+
+@keyframes scaleup {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.feature-title {
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 25px;
+    transition: all 0.1s 0.1s ease-in-out;
+    color: #1c1b1b;
+}
+
+.feature-des {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #454545;
+}
+
+.feature-card:hover .feature-title,
+.feature-card:hover .feature-des {
+    color: #fff;
+}
+
+@media (min-width: 1200px) {
+    .feature-card {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+}
