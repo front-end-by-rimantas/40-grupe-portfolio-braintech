@@ -18,7 +18,7 @@
 .testimonial-author-box {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     position: absolute;
     bottom: -45px;
 }
@@ -32,10 +32,11 @@
     font-size: 22px;
     line-height: 26px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     color: var(--black);
 }
 .testimonial-author-position {
     font-size: 16px;
     color: #454545;
+    padding-bottom: 12px;
 }
