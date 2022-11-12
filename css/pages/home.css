@@ -60,7 +60,7 @@
     color: var(--blue);
 }
 
-.hero-heading {
+.main-title {
     text-transform: capitalize;
     margin-bottom: 1.5rem;
 }
