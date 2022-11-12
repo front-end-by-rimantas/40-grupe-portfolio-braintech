@@ -1,22 +1,22 @@
 [
     {
         "title": "Software Development",
-        "value": "92%",
+        "value": "92",
         "color": "var(--dorange)"
     },
     {
         "title": "Cyber Security",
-        "value": "80%",
+        "value": "80",
         "color": "var(--teal)"
     },
     {
         "title": "Artificial Intelligence",
-        "value": "95%",
+        "value": "95",
         "color": "var(--lblue)"
     },
     {
         "title": "Web Development",
-        "value": "78%",
+        "value": "78",
         "color": "var(--pink)"
     }
 ]
