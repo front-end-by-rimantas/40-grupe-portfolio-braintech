@@ -1,0 +1,32 @@
+[
+    {
+        "img": "../img/service/1.png",
+        "title": "Software Development",
+        "desc": "At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database."
+    },
+    {
+        "img": "../img/service/2.png",
+        "title": "Web Development",
+        "desc": "At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database."
+    },
+    {
+        "img": "../img/service/3.png",
+        "title": "Analytic Solutions",
+        "desc": "At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database."
+    },
+    {
+        "img": "../img/service/4.png",
+        "title": "Cloud & DevOps",
+        "desc": "At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database."
+    },
+    {
+        "img": "../img/service/5.png",
+        "title": "Product Design",
+        "desc": "At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database."
+    },
+    {
+        "img": "../img/service/6.png",
+        "title": "Data Center",
+        "desc": "At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database."
+    }
+]
