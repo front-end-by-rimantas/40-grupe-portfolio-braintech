@@ -1,0 +1,50 @@
+[
+    {
+        "img": "../img/blogs/blog-1.jpg",
+        "tag": "Software Development",
+        "date": "16 Nov 2020",
+        "user": "admin",
+        "title": "necessity may give us your best virtual court system",
+        "desc": "We denounce with righteous indige nation and dislike men who are so beguiled..." 
+    },
+    {
+        "img": "../img/blogs/blog-2.jpg",
+        "tag": "Web Development",
+        "date": "26 December 2020",
+        "user": "admin",
+        "title": "tech products that makes it easier to stay at home",
+        "desc": "We denounce with righteous indige nation and dislike men who are so beguiled..." 
+    },
+    {
+        "img": "../img/blogs/blog-3.jpg",
+        "tag": "IT services",
+        "date": "22 December 2020",
+        "user": "admin",
+        "title": "open source job report show more openings fewer",
+        "desc": "We denounce with righteous indige nation and dislike men who are so beguiled..." 
+    },
+    {
+        "img": "../img/blogs/blog-4.jpg",
+        "tag": "Artifical Intelligence",
+        "date": "26 December 2020",
+        "user": "admin",
+        "title": "types of social proof what it makes them effective",
+        "desc": "We denounce with righteous indige nation and dislike men who are so beguiled..." 
+    },
+    {
+        "img": "../img/blogs/blog-5.jpg",
+        "tag": "Digital Technology",
+        "date": "28 December 2020",
+        "user": "admin",
+        "title": "tech firms support huawei restriction, balk at cost",
+        "desc": "We denounce with righteous indige nation and dislike men who are so beguiled..." 
+    },
+    {
+        "img": "../img/blogs/blog-6.jpg",
+        "tag": "IT Services",
+        "date": "30 December 2020",
+        "user": "admin",
+        "title": "servo project joins the linux foundation fold desco",
+        "desc": "We denounce with righteous indige nation and dislike men who are so beguiled..." 
+    }
+]

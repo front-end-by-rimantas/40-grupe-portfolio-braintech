@@ -1,0 +1,166 @@
+/* base */
+@import '../base/base.css';
+@import '../base/layout.css';
+/* 3rd-party */
+@import '../3rd-party/all.min.css';
+/* components */
+@import '../components/header.css';
+@import '../components/buttons.css';
+@import '../components/slider.css';
+@import '../components/feature-card.css';
+@import '../components/progress-bar.css';
+@import '../components/feature-box.css';
+@import '../components/forms.css';
+@import '../components/blog-card.css';
+@import '../components/testimonial.css';
+@import '../components/socials.css';
+@import '../components/footer.css';
+
+/* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
+
+/* HEADER-start */
+/* HEADER-end */
+
+/* HERO-start */
+.hero-container {
+    background-image: var(--bg-grad-blue);
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.hero-container .col-12 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.hero {
+    grid-template-columns: 50% 50%;
+    color: #fff;
+    padding: 140px 0.25rem 6rem 0.25rem;
+}
+
+.hero-content {
+    grid-column: 1 / span 2;
+}
+
+.video-play {
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+
+.video-play i {
+    font-size: 20px;
+    color: var(--blue);
+    transform: translate(10%, 10%);
+}
+
+.main-title {
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text {
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    line-height: 34px;
+}
+
+@media screen and (min-width: 992px) {
+    .hero {
+        padding-top: 180px;
+        padding-bottom: 5rem;
+    }
+
+    .hero-content {
+        padding-top: 100px;
+        grid-column: 1 / 2;
+    }
+
+    .video-play {
+        margin-bottom: 2rem;
+    }
+
+    .hero-text {
+        font-size: 20px;
+    }
+
+    .hero-img {
+        width: 517px;
+        grid-column: 2 / 3;
+        vertical-align: middle;
+        padding: 80px 0 2rem 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        padding-top: 100px;
+        padding-bottom: 120px;
+        gap: 2rem;
+    }
+
+    .video-play {
+        margin-left: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .hero-img {
+        width: 620px;
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero {
+        padding-top: 60px;
+        padding-bottom: 80px
+    }
+
+    .hero-content {
+        padding-top: 160px;
+        grid-column: 1 / 2;
+    }
+
+    .hero-img {
+        width: 900px;
+        transform: translate(-60px, -50px);
+    }
+}
+/* HERO-end */
+
+/* UPPER-SLIDER-start */
+/* UPPER-SLIDER-end */
+
+/* ABOUT-US-PART-1-start */
+/* ABOUT-US-PART-1-end */
+
+/* ABOUT-US-PART-2-start */
+/* ABOUT-US-PART-2-end */
+
+/* SERVICES-start */
+/* SERVICES-end */
+
+/* WHY-CHOOSE-US-start */
+/* WHY-CHOOSE-US-end */
+
+/* LETS-TALK-start */
+/* LETS-TALK-end */
+
+/* BLOGS-start */
+/* BLOGS-end */
+
+/* TESTIMONIALS-start */
+/* TESTIMONIALS-end */
+
+/* LOWER-SLIDER-start */
+/* LOWER-SLIDER-end */
+
+/* FOOTER-start */
+/* FOOTER-end */

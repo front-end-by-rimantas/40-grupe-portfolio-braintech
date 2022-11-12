@@ -1,0 +1,117 @@
+/* ROOT COLORS AND GRADIENTS */
+
+:root {
+    --bg-grad-blue: linear-gradient(-270deg, #03228f 34%, #0e73e4 100%);
+    --lgray: #eeeeee;
+    --bg-grad-dblue: linear-gradient(330deg, #00005b 0%, #020275 90%);
+    --bg-lgray: #f6f7f9;
+    --dgray: #454545;
+    --black: #101010;
+    --cyan: #14d2f5;
+    --teal: #13e1af;
+    --lblue: #4e95ed;
+    --blue: #03228f;
+    --yellow: #f5be18;
+    --orange: #f27c1e;
+    --dorange: #dd4c23;
+    --pink: #f30876;
+    --default-shadow: 0px 0px 50px 11px rgba(95, 138, 236, 0.05);
+}
+
+/* FONT-FACE */
+
+@font-face {
+    font-family: 'Livvic';
+    src: url(../../webfonts/livvic/Livvic-Light.ttf) format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url(../../webfonts/livvic/Livvic-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url(../../webfonts/livvic/Livvic-Medium.ttf) format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url(../../webfonts/livvic/Livvic-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url(../../webfonts/livvic/Livvic-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+/* CSS RESET */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+body * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Livvic', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 59px;
+}
+
+h2 {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 46px;
+}
+
+h4 {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+h6 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
