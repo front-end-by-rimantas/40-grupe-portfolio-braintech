@@ -1,0 +1,17 @@
+[
+    {
+        "img": "../img/why-us/1.png",
+        "title": "First Growing Process",
+        "desc": "At vero eos et accusamus etiusto odio praesentium."
+    },
+    {
+        "img": "../img/why-us/2.png",
+        "title": "Clean code",
+        "desc": "At vero eos et accusamus etiusto odio praesentium."
+    },
+    {
+        "img": "../img/why-us/3.png",
+        "title": "Well Documentation",
+        "desc": "At vero eos et accusamus etiusto odio praesentium."
+    }
+]
