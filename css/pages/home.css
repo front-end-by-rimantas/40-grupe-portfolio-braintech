@@ -57,6 +57,7 @@
 .video-play i {
     font-size: 20px;
     color: var(--blue);
+    transform: translate(10%, 10%);
 }
 
 .main-title {
