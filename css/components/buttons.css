@@ -1,5 +1,6 @@
 .primary-btn {
     font-weight: 600;
+    line-height: 26px;
     display: inline-block;
     border-radius: 2em;
     padding: 0.9em 2.5em;
@@ -14,6 +15,7 @@
 }
 .secondary-btn {
     font-weight: 600;
+    line-height: 26px;
     display: inline-block;
     font-size: 14px;
     border-radius: 1.6em;
