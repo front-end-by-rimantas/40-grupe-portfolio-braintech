@@ -50,6 +50,7 @@
 .nav-container {
     height: 0;
     width: 100%;
+    margin-top: 0.75rem;
     transition: height ease-in-out 0.5s;
     z-index: 99;
 }
@@ -59,7 +60,6 @@
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    margin-top: 0.75rem;  
     overflow: hidden;
 }
 
@@ -107,10 +107,13 @@
         overflow: visible;
     }
 
-    .nav {
-        height: auto;
+    .nav-container {
+        height: auto !important;
         margin-top: 0;
         margin-right: 2rem;
+    }
+
+    .nav {
         background-color: transparent;
         flex-direction: row;
         align-items: center;
@@ -167,8 +170,11 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .nav {
+    .nav-container {
         margin-right: 8rem;
+    }
+    
+    .nav {
         gap: 4rem;
     }
 }
