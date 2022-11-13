@@ -3,32 +3,27 @@
     top: 0;
     left: 0;
     right: 0;
-    padding: 1rem 0.5rem;
+    background-color: transparent;
+    padding: 1rem 0;
     overflow: hidden;
 }
 
 .header {
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-img {
+.header-content-1 {
     width: 100%;
-    max-height: 40px;
-}
-
-.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav {
-    display: none;
-}
-
-.nav-buttons {
-    display: none;
+.header-img {
+    width: 100%;
+    max-height: 40px;
 }
 
 .burger-menu {
@@ -44,29 +39,74 @@
     opacity: 0.8;
 }
 
+.header-content-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nav-container {
+    height: 0;
+}
+
+.show-nav {
+    position: static;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-buttons {
+    display: none;
+}
+
 @media screen and (min-width: 992px) {
     .header-container {
         position: fixed;
     }
 
-    .show-links {
-        display: flex;
+    .header {
+        flex-direction: row;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .header-content-2 {
+        overflow: visible;
+    }
+
+    .nav-container {
+        height: auto;
+        margin-right: 4rem;
+    }
+
+    .nav {
+        flex-direction: row;
         word-wrap: wrap;
         gap: 2rem;
-        margin-right: 4rem;
     }
 
     .nav-link {
         font-weight: 600;
         color: #fff;
         text-transform: capitalize;
+        transition: all ease-out 0.25s;
     }
-
+    
     .active {
         color: #bbb;
     }
 
-    .nav-buttons {
+    .nav-link:hover {
+        color: #bbb;
+    }
+
+    .header-buttons {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -97,14 +137,10 @@
     .expand-btn > .dot:nth-child(odd) {
         background-color: #fff;
     }
-
-    .burger-menu {
-        display: none;
-    }
 }
 
 @media screen and (min-width: 1200px) {
-    .show-links {
+    .nav-container {
         margin-right: 6rem;
     }
 
