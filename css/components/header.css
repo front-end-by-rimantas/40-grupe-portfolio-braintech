@@ -109,6 +109,7 @@
 
     .nav-container {
         height: auto !important;
+        opacity: 1 !important;
         margin-top: 0;
         margin-right: 2rem;
     }
@@ -173,7 +174,7 @@
     .nav-container {
         margin-right: 8rem;
     }
-    
+
     .nav {
         gap: 4rem;
     }
