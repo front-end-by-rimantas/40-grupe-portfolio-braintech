@@ -4,8 +4,8 @@
 
 // navbar variables
 const navToggle = document.getElementById('nav-toggle');
-const nav = document.getElementById('nav');
 const navContainer = document.getElementById('nav-container');
+const nav = document.getElementById('nav');
 
 window.addEventListener('resize', () => {
     if (navContainer.classList.contains('show-nav')) {
