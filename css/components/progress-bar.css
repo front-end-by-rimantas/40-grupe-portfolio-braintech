@@ -2,12 +2,15 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 .progress-bar > .top {
     display: flex;
     justify-content: space-between;
     color: var(--dark);
+    font-size: 14px;
+}
+.label {
     font-size: 14px;
 }
 .value {
