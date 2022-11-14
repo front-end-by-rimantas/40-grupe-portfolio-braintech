@@ -154,8 +154,20 @@
     width: 100%;
 }
 .about-us-2-text {
-    padding-bottom: 1em;
+    /* padding-bottom: 1em; */
+    margin-bottom: 1em;
 }
+.about-us-2-text-h {
+    /* padding-bottom: 1em; */
+    margin-bottom: 1em;
+}
+
+/* @media (min-width: 992px) {
+    .about-us-2-text-h {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+} */
 
 /* ABOUT-US-PART-2-end */
 
