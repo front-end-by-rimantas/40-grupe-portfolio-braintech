@@ -162,12 +162,12 @@
     margin-bottom: 1em;
 }
 
-/* @media (min-width: 992px) {
+@media (min-width: 992px) {
     .about-us-2-text-h {
-        padding-top: 120px;
-        padding-bottom: 120px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
-} */
+}
 
 /* ABOUT-US-PART-2-end */
 
