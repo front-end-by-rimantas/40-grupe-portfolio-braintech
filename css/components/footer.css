@@ -80,15 +80,13 @@ footer .container {
     font-size: 17px;
 }
 
+.footer-contact-box .footer-link.inactive:hover {
+    color: var(--dgray);
+}
+
 @media (min-width: 992px) {
     .services-padding {
         padding-left: 36px;
-    }
-}
-
-@media (max-width: 992px) {
-    .footer-newsletter-column {
-        width: 50%;
     }
 }
 
@@ -98,11 +96,12 @@ footer .container {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    gap: 14px;
+    gap: 8px;
 }
 
 .copyright-link {
     color: var(--dgray);
+    transition: all 0.3s;
 }
 
 .footer-row-2 .footer-link {
