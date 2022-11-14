@@ -127,12 +127,28 @@ footer .container {
     top: 12px;
 }
 
+@media (max-width: 415px) {
+    .footer-row-2 .footer-link::after {
+        display: none;
+    }
+
+    .footer-nav {
+        gap: 15px !important;
+    }
+
+    .copyright-text {
+        text-align: center;
+    }
+}
+
 .footer-row-2 .footer-link:last-child::after {
     display: none;
 }
 
 .footer-nav {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 50px;
 }
 
