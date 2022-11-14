@@ -193,6 +193,49 @@
 /* LETS-TALK-end */
 
 /* BLOGS-start */
+.blogs-content {
+    max-width: 430px;
+    text-align: center;
+    margin: 0 auto 2.5rem;
+}
+
+.blogs-content h2 {
+    margin-bottom: 0.5rem;
+}
+
+.blogs-content h3 {
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.blog-content p {
+    color: var(--dgray);
+}
+
+.blogs {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    gap: 1rem;
+    overflow-x: hidden;
+    padding: 0.5rem 0;
+}
+
+@media screen and (min-width: 768px){
+    .blogs-container {
+        padding: 100px 0;
+    }
+
+    .blogs {
+        grid-auto-columns: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .blogs {
+        grid-auto-columns: 33.3%;
+    }
+}
 /* BLOGS-end */
 
 /* TESTIMONIALS-start */
