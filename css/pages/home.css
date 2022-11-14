@@ -121,7 +121,7 @@
 @media screen and (min-width: 1440px) {
     .hero {
         padding-top: 60px;
-        padding-bottom: 80px
+        padding-bottom: 80px;
     }
 
     .hero-content {
@@ -149,6 +149,30 @@
 /* SERVICES-end */
 
 /* WHY-CHOOSE-US-start */
+.choose-us {
+    padding: 120px 0;
+}
+.title-name {
+    font-size: 30px;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.title-description {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 40px 0;
+}
+.img-office {
+    max-width: 100%;
+    height: auto;
+}
+.icons {
+    /* width: 100%; */
+}
+.feature-box {
+    display: flex;
+}
 /* WHY-CHOOSE-US-end */
 
 /* LETS-TALK-start */
