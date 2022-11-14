@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-bottom: 1em;
 }
 .progress-bar > .top {
     display: flex;
@@ -25,7 +26,20 @@
     height: 100%;
     width: 100%;
     animation: loading 2s forwards;
+}
+
+.bar1 {
     background-color: var(--orange);
+}
+
+.bar2 {
+    background-color: var(--teal);
+}
+.bar3 {
+    background-color: var(--lblue);
+}
+.bar4 {
+    background-color: var(--pink);
 }
 
 @keyframes loading {

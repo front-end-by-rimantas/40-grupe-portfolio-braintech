@@ -143,6 +143,20 @@
 /* ABOUT-US-PART-1-end */
 
 /* ABOUT-US-PART-2-start */
+.about-us-2 .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.about-us-2-img {
+    width: 100%;
+}
+.about-us-2-text {
+    padding-bottom: 1em;
+}
+
 /* ABOUT-US-PART-2-end */
 
 /* SERVICES-start */
