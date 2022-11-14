@@ -155,10 +155,6 @@
 /* LETS-TALK-end */
 
 /* BLOGS-start */
-.blogs-container {
-    padding: 100px 0;
-}
-
 .blogs-content {
     max-width: 430px;
     text-align: center;
@@ -188,6 +184,10 @@
 }
 
 @media screen and (min-width: 768px){
+    .blogs-container {
+        padding: 100px 0;
+    }
+
     .blogs {
         grid-auto-columns: 50%;
     }
