@@ -156,7 +156,10 @@
     background-color: var(--blue);
     box-shadow: var(--default-shadow);
 }
-
+.about-us-1-text {
+    margin-bottom: 2em;
+    color: var(--dgray);
+}
 .big-numbers-1 {
     font-size: 45px;
     font-weight: 700;
@@ -173,7 +176,7 @@
 }
 .big-nr-row > .numbers {
     flex-direction: column;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 @media (min-width: 576px) {
     .big-nr-row {
@@ -188,7 +191,17 @@
 }
 .text-a-u-1 {
     margin-top: 1em;
+    color: var(--black);
+    font-weight: 600;
 }
+.card-4 {
+    display: grid;
+    grid-template-columns: 100%;
+    /* grid-template-rows: 50% 50%; */
+    gap: 30px;
+    grid-auto-flow: row;
+}
+
 @media (min-width: 768px) {
     .card-4 {
         display: grid;
