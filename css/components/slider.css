@@ -34,3 +34,19 @@
         grid-auto-columns: 20%;
     }
 }
+
+/* dark version */
+
+.partners-dark {
+    background-image: var(--bg-grad-dblue);
+}
+
+.partners-item-dark {
+    filter: grayscale(100%);
+    transition: all 0.3s;
+}
+
+.partners-item-dark:hover {
+    filter: unset;
+    cursor: pointer;
+}
