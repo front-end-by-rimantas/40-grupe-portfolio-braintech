@@ -221,10 +221,7 @@
     font-size: 18px;
     font-weight: 400;
     margin: 40px 0;
-}
-
-.feature-box {
-    display: flex;
+    color:var(--dgray);
 }
 /* LETS-TALK-end */
 

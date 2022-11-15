@@ -36,6 +36,7 @@
 .form-heading > p {
     font-size: 14px;
     font-weight: 400;
+    color:var(--dgray);
 }
 
 .submit-btn {
@@ -60,7 +61,7 @@
 }
 
 .appointment-form > input::placeholder {
-    color: #454545;
+    color:var(--dgray);
     font-weight: 400;
 }
 
@@ -85,6 +86,15 @@
 @media screen and (min-width: 992px) {
     .form-heading > h4 {
         font-size: 18px;
+    }
+    .form-heading > p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .form-heading > h4 {
+        font-size: 24px;
     }
     .form-heading > p {
         font-size: 14px;
