@@ -140,6 +140,94 @@
 /* UPPER-SLIDER-end */
 
 /* ABOUT-US-PART-1-start */
+.about-us-card:nth-child(1):hover {
+    background-color: var(--orange);
+    box-shadow: var(--default-shadow);
+}
+.about-us-card:nth-child(2):hover {
+    background-color: var(--teal);
+    box-shadow: var(--default-shadow);
+}
+.about-us-card:nth-child(3):hover {
+    background-color: var(--yellow);
+    box-shadow: var(--default-shadow);
+}
+.about-us-card:nth-child(4):hover {
+    background-color: var(--blue);
+    box-shadow: var(--default-shadow);
+}
+
+.big-numbers-1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--orange);
+}
+.big-numbers-2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--blue);
+}
+.big-nr-row {
+    display: flex;
+    flex-direction: column;
+}
+.big-nr-row > .numbers {
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+@media (min-width: 576px) {
+    .big-nr-row {
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .numbers {
+        flex-direction: column;
+        width: 50%;
+    }
+}
+.text-a-u-1 {
+    margin-top: 1em;
+}
+@media (min-width: 768px) {
+    .card-4 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        gap: 30px;
+        grid-auto-flow: column;
+    }
+    /* .about-us-card .o {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .about-us-card .t {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .about-us-card .th {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .about-us-card .f {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 15px;
+    } */
+}
+@media (min-width: 992px) {
+    .about-us-1 {
+        padding-top: 120px;
+    }
+    .down {
+        margin-top: 120px;
+        margin-bottom: 60px;
+    }
+}
+
 /* ABOUT-US-PART-1-end */
 
 /* ABOUT-US-PART-2-start */
@@ -221,7 +309,7 @@
     font-size: 18px;
     font-weight: 400;
     margin: 40px 0;
-    color:var(--dgray);
+    color: var(--dgray);
 }
 /* LETS-TALK-end */
 
