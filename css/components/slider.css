@@ -1,0 +1,12 @@
+.partners.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.partners-grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 20%;
+    gap: 10px;
+    overflow: hidden;
+}
