@@ -143,6 +143,36 @@
 /* ABOUT-US-PART-1-end */
 
 /* ABOUT-US-PART-2-start */
+.about-us-2 .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.about-us-2-img {
+    width: 100%;
+}
+.about-us-2-text {
+    /* padding-bottom: 1em; */
+    margin-bottom: 2em;
+}
+.about-us-2-text-h {
+    /* padding-bottom: 1em; */
+    margin-bottom: 1em;
+}
+
+.progress-bar-container > .progress-bar {
+    margin-bottom: 1.5em;
+}
+
+@media (min-width: 992px) {
+    .about-us-2 {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
+
 /* ABOUT-US-PART-2-end */
 
 /* SERVICES-start */
@@ -207,7 +237,7 @@
     padding: 0.5rem 0;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .blogs-container {
         padding: 100px 0;
     }
@@ -217,7 +247,7 @@
     }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     .blogs {
         grid-auto-columns: 33.3%;
     }
