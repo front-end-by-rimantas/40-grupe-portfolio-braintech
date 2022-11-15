@@ -16,7 +16,7 @@
 
 .appointment-form > * {
     font-size: 16px;
-    padding: 18px;
+    padding: 19px;
     border: none;
     outline: none;
     border-radius: 2px;
@@ -51,6 +51,8 @@
     background: linear-gradient(160deg, #03228f 0%, #0b70e1 77%);
     box-shadow: var(--default-shadow);
     transition: all 0.3s;
+    margin-top: 20px;
+    font-family: 'Livvic';
 }
 
 .appointment-form > .submit-btn:hover {
