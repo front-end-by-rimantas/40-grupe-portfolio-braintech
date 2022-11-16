@@ -140,6 +140,15 @@
 /* UPPER-SLIDER-end */
 
 /* ABOUT-US-PART-1-start */
+.about-us-1 {
+    padding-bottom: 0;
+}
+.about-us-1-content {
+    margin-bottom: 2rem !important;
+}
+.down {
+    margin-bottom: 60px;
+}
 .about-us-card:nth-child(1):hover {
     background-color: var(--orange);
     box-shadow: var(--default-shadow);
@@ -153,7 +162,7 @@
     box-shadow: var(--default-shadow);
 }
 .about-us-card:nth-child(4):hover {
-    background-color: var(--blue);
+    background-color: var(--lblue);
     box-shadow: var(--default-shadow);
 }
 .about-us-1-text {
@@ -173,6 +182,7 @@
 .big-nr-row {
     display: flex;
     flex-direction: column;
+    padding-left: 2rem;
 }
 .big-nr-row > .numbers {
     flex-direction: column;
@@ -197,8 +207,7 @@
 .card-4 {
     display: grid;
     grid-template-columns: 100%;
-    /* grid-template-rows: 50% 50%; */
-    gap: 30px;
+    gap: 20px;
     grid-auto-flow: row;
 }
 
@@ -207,29 +216,15 @@
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
-        gap: 30px;
+        gap: 20px;
         grid-auto-flow: column;
     }
-    /* .about-us-card .o {
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 15px;
+    .about-us-card:nth-child(3) {
+        transform: translateY(-30px);
     }
-    .about-us-card .t {
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 15px;
+    .about-us-card:nth-child(4) {
+        transform: translateY(-30px);
     }
-    .about-us-card .th {
-        flex-direction: column;
-        width: 100%;
-        margin-top: 15px;
-    }
-    .about-us-card .f {
-        flex-direction: column;
-        width: 100%;
-        margin-top: 15px;
-    } */
 }
 @media (min-width: 992px) {
     .about-us-1 {
@@ -237,7 +232,6 @@
     }
     .down {
         margin-top: 120px;
-        margin-bottom: 60px;
     }
 }
 
@@ -277,6 +271,75 @@
 /* ABOUT-US-PART-2-end */
 
 /* SERVICES-start */
+.services {
+    background-color: var(--bg-lgray);
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+.service-card {
+    position: relative;
+}
+.section-title-services {
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 10px 0;
+    font-size: 30px;
+}
+.services-display {
+    display: inline-block;
+    text-align: center;
+}
+.services-btn {
+    margin-top: 0px;
+    margin-bottom: 55px;
+}
+.services-numbers {
+    font-size: 65px;
+    font-weight: 600;
+    position: absolute;
+    color: var(--lgray);
+    right: 30px;
+    top: 20px;
+    opacity: 0.5;
+}
+.service-card:nth-child(2):hover {
+    background-color: var(--pink);
+}
+.service-card:nth-child(3):hover {
+    background-color: var(--cyan);
+}
+.service-card:nth-child(4):hover {
+    background-color: var(--teal);
+}
+.service-card:nth-child(5):hover {
+    background-color: var(--blue);
+}
+.service-card:nth-child(6):hover {
+    background-color: var(--lblue);
+}
+@media (min-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 992px) {
+    .services-btn {
+        float: right;
+        margin-top: 60px;
+    }
+    .section-title-services {
+        font-size: 36px;
+    }
+    .intro {
+        text-align: left;
+    }
+    .services-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
 /* SERVICES-end */
 
 /* WHY-CHOOSE-US-start */
@@ -298,9 +361,6 @@
     max-width: 100%;
     height: auto;
 }
-.icons {
-    /* width: 100%; */
-}
 .feature-box {
     display: flex;
 }
@@ -311,7 +371,6 @@
     padding: 120px 0;
     background-color: var(--bg-lgray);
 }
-
 .title-name {
     font-size: 30px;
     line-height: 1.4;
@@ -373,6 +432,31 @@
 /* BLOGS-end */
 
 /* TESTIMONIALS-start */
+.testimonials {
+    background-color: var(--bg-lgray);
+    padding: 0px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.img-testimonials {
+    max-width: 100%;
+    height: auto;
+}
+
+.title-name {
+    font-size: 30px;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.title-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--dgray);
+    margin: 40px 0px;
+}
 /* TESTIMONIALS-end */
 
 /* LOWER-SLIDER-start */
