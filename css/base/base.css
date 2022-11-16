@@ -198,3 +198,8 @@ img {
 }
 
 /* SECTION TEXT */
+
+.section-desc {
+    color: var(--dgray);
+    margin-bottom: 3rem;
+}

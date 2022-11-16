@@ -354,12 +354,6 @@
     padding: 120px 0;
 }
 
-.title-description {
-    font-size: 18px;
-    font-weight: 400;
-    margin: 40px 0;
-}
-
 .img-office {
     max-width: 100%;
     height: auto;
@@ -375,13 +369,6 @@
     padding: 120px 0;
     background-color: var(--bg-lgray);
 }
-
-.title-description {
-    font-size: 18px;
-    font-weight: 400;
-    margin: 40px 0;
-    color: var(--dgray);
-}
 /* LETS-TALK-end */
 
 /* BLOGS-start */
@@ -389,10 +376,6 @@
     max-width: 430px;
     text-align: center;
     margin: 0 auto 2.5rem;
-}
-
-.blog-content p {
-    color: var(--dgray);
 }
 
 .blogs {
@@ -432,13 +415,6 @@
 .img-testimonials {
     max-width: 100%;
     height: auto;
-}
-
-.title-description {
-    font-size: 18px;
-    font-weight: 400;
-    color: var(--dgray);
-    margin: 40px 0px;
 }
 /* TESTIMONIALS-end */
 
