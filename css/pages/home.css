@@ -247,7 +247,7 @@
 /* ABOUT-US-PART-1-end */
 
 /* ABOUT-US-PART-2-start */
-.about-us-2.container {
+.about-us-2 {
     display: flex;
     flex-direction: column;
     margin-top: 0;
@@ -333,6 +333,11 @@
 }
 
 @media (min-width: 992px) {
+    .services {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
     .services-btn {
         float: right;
         margin-top: 60px;
@@ -359,11 +364,25 @@
 .feature-box {
     display: flex;
 }
+
+@media screen and (min-width: 992px) {
+    .choose-us {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
 /* WHY-CHOOSE-US-end */
 
 /* LETS-TALK-start */
 .lets-talk {
     background-color: var(--bg-lgray);
+}
+
+@media screen and (min-width: 992px) {
+    .lets-talk {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
 }
 /* LETS-TALK-end */
 
@@ -383,9 +402,10 @@
     padding: 0.5rem 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .blogs-container {
-        padding: 100px 0;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 
     .blogs {
@@ -403,13 +423,18 @@
 /* TESTIMONIALS-start */
 .testimonials {
     background-color: var(--bg-lgray);
-    padding-bottom: 80px;
-    padding-top: 80px;
 }
 
 .img-testimonials {
     max-width: 100%;
     height: auto;
+}
+
+@media screen and (min-width: 992px) {
+    .testimonials {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
 }
 /* TESTIMONIALS-end */
 
