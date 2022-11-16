@@ -24,7 +24,6 @@
 /* HERO-start */
 .hero-container {
     background-image: var(--bg-grad-blue);
-    padding: 0;
     overflow-x: hidden;
 }
 
@@ -337,6 +336,7 @@
     .services-btn {
         float: right;
         margin-top: 60px;
+        margin-right: 35px;
     }
     
     .intro {
@@ -350,9 +350,6 @@
 /* SERVICES-end */
 
 /* WHY-CHOOSE-US-start */
-.choose-us {
-    padding: 120px 0;
-}
 
 .img-office {
     max-width: 100%;
@@ -366,7 +363,6 @@
 
 /* LETS-TALK-start */
 .lets-talk {
-    padding: 120px 0;
     background-color: var(--bg-lgray);
 }
 /* LETS-TALK-end */
@@ -407,7 +403,6 @@
 /* TESTIMONIALS-start */
 .testimonials {
     background-color: var(--bg-lgray);
-    padding: 0px;
     padding-bottom: 80px;
     padding-top: 80px;
 }
