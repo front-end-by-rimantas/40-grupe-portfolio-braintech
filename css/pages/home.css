@@ -43,6 +43,108 @@
     grid-column: 1 / span 2;
 }
 
+.hero-img {
+    z-index: 1;
+}
+
+/* hero animation */
+
+.hero-container > .row {
+    position: relative;
+}
+
+.animation-line-left {
+    width: 1px;
+    height: 100%;
+    background-color: #ffffff18;
+    position: absolute;
+    left: 0;
+    transform: translateY(-60px);
+    transform: scaleY(1.2);
+}
+
+.animation-line-center {
+    height: 100%;
+    width: 1px;
+    background-color: #ffffff18;
+    position: absolute;
+    right: 50%;
+    transform: scaleY(1.2);
+}
+
+.animation-line-right {
+    height: 100%;
+    width: 1px;
+    background-color: #ffffff18;
+    position: absolute;
+    right: 0;
+    transform: scaleY(1.2);
+}
+
+.animation-line-left::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 65px;
+    background: rgb(247, 241, 241);
+    background: linear-gradient(
+        180deg,
+        rgba(247, 241, 241, 1) 0%,
+        rgba(222, 249, 255, 1) 69%,
+        rgba(177, 241, 254, 1) 100%
+    );
+    transform: translate(1.5px, -80px);
+    animation: dropping 15s infinite linear;
+    animation-delay: 3s;
+}
+
+.animation-line-center::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 3px;
+    height: 65px;
+    background: rgb(248, 248, 248);
+    background: linear-gradient(
+        180deg,
+        rgba(247, 241, 241, 1) 0%,
+        rgba(222, 249, 255, 1) 69%,
+        rgba(177, 241, 254, 1) 100%
+    );
+    transform: translate(1.5px, -80px);
+    animation: dropping 15s infinite linear;
+}
+
+.animation-line-right::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 65px;
+    background: rgb(247, 241, 241);
+    background: linear-gradient(
+        180deg,
+        rgba(247, 241, 241, 1) 0%,
+        rgba(222, 249, 255, 1) 69%,
+        rgba(177, 241, 254, 1) 100%
+    );
+    transform: translate(1.5px, -80px);
+    animation: dropping 15s infinite linear;
+    animation-delay: 4s;
+}
+
+@keyframes dropping {
+    100% {
+        transform: translate(1.5px, 920px);
+    }
+}
+
+/* video play button */
+
 .video-play {
     background-color: #fff;
     border-radius: 50%;
