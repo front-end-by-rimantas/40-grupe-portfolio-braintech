@@ -367,22 +367,23 @@
 
 /* animation */
 
-.img-office {
+.img-office-box {
     position: relative;
 }
 .choose-us-animation-item-1,
 .choose-us-animation-item-2 {
     position: absolute;
-    z-index: 0;
+}
+
+.img-office-items {
+    z-index: 2 !important;
 }
 
 .choose-us-animation-item-1 {
-    left: 50px;
+    top: 0;
 }
 
 .choose-us-animation-item-2 {
-    right: 0;
-    bottom: 50px;
 }
 
 @keyframes choosescaling {
