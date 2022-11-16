@@ -117,9 +117,10 @@ img {
     display: inline-block;
 }
 
-/* SECTION-TITLES */
+/* SECTION TITLES */
 
 .section-title-basic {
+    margin-bottom: 0.7rem;
     font-weight: 400;
     color: var(--blue);
     text-transform: uppercase;
@@ -128,6 +129,7 @@ img {
 
 .section-title {
     padding-left: 95px;
+    margin-bottom: 0.7rem;
     font-weight: 400;
     color: var(--blue);
     text-transform: uppercase;
@@ -155,4 +157,49 @@ img {
     top: 50%;
     left: 24px;
     transform: translateY(-50%);
+}
+
+/* SECTION SUBTITLES */
+
+.section-subtitle {
+    font-size: 26px;
+    line-height: 46px;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.section-subtitle-xl {
+    font-size: 30px;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .section-subtitle {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .section-subtitle {
+        font-size: 27px;
+    }
+
+    .section-subtitle-xl {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .section-subtitle {
+        font-size: 36px;
+    }
+}
+
+/* SECTION TEXT */
+
+.section-desc {
+    color: var(--dgray);
+    margin-bottom: 3rem;
 }
