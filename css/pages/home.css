@@ -51,6 +51,7 @@
     width: 80px;
     cursor: pointer;
     margin-bottom: 1.5rem;
+    position: relative;
 }
 
 .video-play i {
@@ -59,6 +60,60 @@
     transform: translate(10%, 10%);
     pointer-events: none;
 }
+
+/* video play button animation */
+
+.video-play::before {
+    content: '';
+    width: 80px;
+    height: 80px;
+    transform: scale(1.2);
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    box-shadow: 0 0 0 1px #fff;
+    border-radius: 50%;
+    /* animation: circleanimation1 5s infinite; */
+}
+
+.video-play::after {
+    content: '';
+    width: 80px;
+    height: 80px;
+    transform: scale(1.45);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    box-shadow: 0 0 0 1px #fff;
+    border-radius: 50%;
+    /* animation: circleanimation2 5s infinite; */
+}
+
+@keyframes circleanimation1 {
+    0% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@keyframes circleanimation2 {
+    0% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    30% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(2.5);
+        opacity: 0;
+    }
 
 .main-title {
     text-transform: capitalize;
@@ -342,7 +397,7 @@
         margin-top: 60px;
         margin-right: 35px;
     }
-    
+
     .intro {
         text-align: left;
     }
