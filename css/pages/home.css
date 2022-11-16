@@ -169,11 +169,6 @@
     box-shadow: var(--default-shadow);
 }
 
-.about-us-1-text {
-    margin-bottom: 2em;
-    color: var(--dgray);
-}
-
 .big-numbers-1 {
     font-size: 45px;
     font-weight: 700;
@@ -245,7 +240,7 @@
     .about-us-1 {
         padding-top: 120px;
     }
-    
+
     .down {
         margin-top: 120px;
     }
@@ -253,23 +248,15 @@
 /* ABOUT-US-PART-1-end */
 
 /* ABOUT-US-PART-2-start */
-.about-us-2 .container {
+.about-us-2.container {
     display: flex;
     flex-direction: column;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 0;
 }
+
 .about-us-2-img {
     width: 100%;
-}
-.about-us-2-text {
-    /* padding-bottom: 1em; */
-    margin-bottom: 2em;
-}
-.about-us-2-text-h {
-    /* padding-bottom: 1em; */
-    margin-bottom: 1em;
 }
 
 .progress-bar-container > .progress-bar {
@@ -289,28 +276,27 @@
 .services {
     background-color: var(--bg-lgray);
 }
+
 .services-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
 }
+
 .service-card {
     position: relative;
 }
-.section-title-services {
-    font-weight: 700;
-    line-height: 1.4;
-    margin: 10px 0;
-    font-size: 30px;
-}
+
 .services-display {
     display: inline-block;
     text-align: center;
 }
+
 .services-btn {
     margin-top: 0px;
     margin-bottom: 55px;
 }
+
 .services-numbers {
     font-size: 65px;
     font-weight: 600;
@@ -320,37 +306,43 @@
     top: 20px;
     opacity: 0.5;
 }
+
 .service-card:nth-child(2):hover {
     background-color: var(--pink);
 }
+
 .service-card:nth-child(3):hover {
     background-color: var(--cyan);
 }
+
 .service-card:nth-child(4):hover {
     background-color: var(--teal);
 }
+
 .service-card:nth-child(5):hover {
     background-color: var(--blue);
 }
+
 .service-card:nth-child(6):hover {
     background-color: var(--lblue);
 }
+
 @media (min-width: 768px) {
     .services-grid {
         grid-template-columns: 1fr 1fr;
     }
 }
+
 @media (min-width: 992px) {
     .services-btn {
         float: right;
         margin-top: 60px;
     }
-    .section-title-services {
-        font-size: 36px;
-    }
+    
     .intro {
         text-align: left;
     }
+
     .services-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -361,21 +353,18 @@
 .choose-us {
     padding: 120px 0;
 }
-.title-name {
-    font-size: 30px;
-    line-height: 1.4;
-    font-weight: 700;
-    margin-top: 15px;
-}
+
 .title-description {
     font-size: 18px;
     font-weight: 400;
     margin: 40px 0;
 }
+
 .img-office {
     max-width: 100%;
     height: auto;
 }
+
 .feature-box {
     display: flex;
 }
@@ -386,12 +375,7 @@
     padding: 120px 0;
     background-color: var(--bg-lgray);
 }
-.title-name {
-    font-size: 30px;
-    line-height: 1.4;
-    font-weight: 700;
-    margin-top: 15px;
-}
+
 .title-description {
     font-size: 18px;
     font-weight: 400;
@@ -405,15 +389,6 @@
     max-width: 430px;
     text-align: center;
     margin: 0 auto 2.5rem;
-}
-
-.blogs-content h2 {
-    margin-bottom: 0.5rem;
-}
-
-.blogs-content h3 {
-    text-transform: capitalize;
-    margin-bottom: 1.5rem;
 }
 
 .blog-content p {
@@ -457,13 +432,6 @@
 .img-testimonials {
     max-width: 100%;
     height: auto;
-}
-
-.title-name {
-    font-size: 30px;
-    line-height: 1.4;
-    font-weight: 700;
-    margin-top: 15px;
 }
 
 .title-description {
