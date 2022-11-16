@@ -38,9 +38,9 @@
 }
 
 .footer-socials > .socials:hover {
-    background-color: var(--blue);
+    background-color: var(--lblue);
     color: white;
-    transition: all ease-out 0.2s;
+    transition: all ease-out 0.5s;
 }
 
 .header-socials {

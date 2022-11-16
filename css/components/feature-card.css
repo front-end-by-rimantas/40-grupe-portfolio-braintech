@@ -4,7 +4,6 @@
     padding: 50px 30px;
     transition: all 0.2s;
     background-color: #fff;
-    cursor: pointer;
 }
 
 .feature-card:hover {
