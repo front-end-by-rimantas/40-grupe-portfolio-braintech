@@ -379,29 +379,40 @@
 
 .choose-us-animation-item-1 {
     top: -30px;
-    animation: choosescaling alternate infinite 2s ease-out;
+    animation: choosescaling 2s alternate infinite;
 }
 
 .choose-us-animation-item-2 {
-    animation: choosescaling 3s infinite alternate;
+    right: 40px;
+    bottom: -160px;
+    animation: choosetranslating 4s alternate infinite;
 }
 
 @keyframes choosescaling {
     0% {
-        transform: scale(1);
-    }
-    10% {
-        transform: scale(1);
+        transform: scale(0.8);
     }
     100% {
-        transform: scale(0.8);
+        transform: scale(1);
     }
 }
 
 @keyframes choosetranslating {
     0% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(15px, -15px, 0);
     }
     100% {
+        transform: translate3d(0px, -15px, 15px);
+    }
+}
+
+@media (min-width: 1200px) {
+    .choose-us-animation-item-2 {
+        right: 15px;
+        bottom: 6px;
     }
 }
 
