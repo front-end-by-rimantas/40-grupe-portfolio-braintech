@@ -209,26 +209,12 @@
         gap: 20px;
         grid-auto-flow: column;
     }
-    /* .about-us-card .o {
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 15px;
+    .about-us-card:nth-child(3) {
+        transform: translateY(-30px);
     }
-    .about-us-card .t {
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 15px;
+    .about-us-card:nth-child(4) {
+        transform: translateY(-30px);
     }
-    .about-us-card .th {
-        flex-direction: column;
-        width: 100%;
-        margin-top: 15px;
-    }
-    .about-us-card .f {
-        flex-direction: column;
-        width: 100%;
-        margin-top: 15px;
-    } */
 }
 @media (min-width: 992px) {
     .about-us-1 {
@@ -271,12 +257,6 @@
         padding-top: 120px;
         padding-bottom: 120px;
     }
-}
-.about-us-card:nth-child(3) {
-    transform: translateY(-30px);
-}
-.about-us-card:nth-child(4) {
-    transform: translateY(-30px);
 }
 
 /* ABOUT-US-PART-2-end */
