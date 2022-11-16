@@ -12,6 +12,7 @@
     color: #fff;
     cursor: pointer;
 }
+
 .primary-btn:hover {
     background-image: linear-gradient(30deg, var(--orange), var(--dorange));
 }
@@ -31,6 +32,7 @@
     color: #fff;
     cursor: pointer;
 }
+
 .secondary-btn:hover {
     background-image: linear-gradient(to left, var(--blue), var(--lblue));
 }
