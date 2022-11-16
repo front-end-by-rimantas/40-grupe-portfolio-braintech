@@ -370,26 +370,31 @@
 .img-office-box {
     position: relative;
 }
+
 .choose-us-animation-item-1,
 .choose-us-animation-item-2 {
     position: absolute;
-}
-
-.img-office-items {
-    z-index: 2 !important;
+    z-index: -1;
 }
 
 .choose-us-animation-item-1 {
-    top: 0;
+    top: -30px;
+    animation: choosescaling alternate infinite 2s ease-out;
 }
 
 .choose-us-animation-item-2 {
+    animation: choosescaling 3s infinite alternate;
 }
 
 @keyframes choosescaling {
     0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(1);
     }
     100% {
+        transform: scale(0.8);
     }
 }
 
