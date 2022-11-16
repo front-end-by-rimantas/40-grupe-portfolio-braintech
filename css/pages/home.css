@@ -197,8 +197,7 @@
 .card-4 {
     display: grid;
     grid-template-columns: 100%;
-    /* grid-template-rows: 50% 50%; */
-    gap: 30px;
+    gap: 20px;
     grid-auto-flow: row;
 }
 
@@ -207,7 +206,7 @@
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
-        gap: 30px;
+        gap: 20px;
         grid-auto-flow: column;
     }
     /* .about-us-card .o {
