@@ -1,3 +1,5 @@
+/* Primary Button */
+
 .primary-btn {
     font-weight: 600;
     line-height: 26px;
@@ -13,6 +15,9 @@
 .primary-btn:hover {
     background-image: linear-gradient(30deg, var(--orange), var(--dorange));
 }
+
+/* Secondary Button */
+
 .secondary-btn {
     font-weight: 600;
     line-height: 26px;
@@ -28,4 +33,34 @@
 }
 .secondary-btn:hover {
     background-image: linear-gradient(to left, var(--blue), var(--lblue));
+}
+
+/* Scroll-To-Top Button */
+
+.scroll-btn {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-image: var(--bg-grad-blue);
+    border-radius: 50%;
+    width: 44px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease-out 0.25s;
+}
+
+.show-btn {
+    visibility: visible;
+    opacity: 1;
+}
+
+.scroll-btn:hover {
+    opacity: 0.8;
 }
