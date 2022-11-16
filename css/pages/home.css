@@ -176,6 +176,14 @@
 /* ABOUT-US-PART-2-end */
 
 /* SERVICES-start */
+.services {
+    background-color: var(--bg-lgray);
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
 .service-card {
     position: relative;
 }
@@ -188,6 +196,10 @@
 .services-display {
     display: inline-block;
     text-align: center;
+}
+.services-btn {
+    margin-top: 0px;
+    margin-bottom: 55px;
 }
 .numbers {
     font-size: 65px;
@@ -213,6 +225,11 @@
 .service-card:nth-child(6):hover {
     background-color: var(--lblue);
 }
+@media (min-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 @media (min-width: 992px) {
     .services-btn {
         float: right;
@@ -223,6 +240,9 @@
     }
     .intro {
         text-align: left;
+    }
+    .services-grid {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 /* SERVICES-end */
