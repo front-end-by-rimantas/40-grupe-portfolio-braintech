@@ -364,6 +364,41 @@
 .feature-box {
     display: flex;
 }
+
+/* animation */
+
+.img-office {
+    position: relative;
+}
+.choose-us-animation-item-1,
+.choose-us-animation-item-2 {
+    position: absolute;
+    z-index: 0;
+}
+
+.choose-us-animation-item-1 {
+    left: 50px;
+}
+
+.choose-us-animation-item-2 {
+    right: 0;
+    bottom: 50px;
+}
+
+@keyframes choosescaling {
+    0% {
+    }
+    100% {
+    }
+}
+
+@keyframes choosetranslating {
+    0% {
+    }
+    100% {
+    }
+}
+
 /* WHY-CHOOSE-US-end */
 
 /* LETS-TALK-start */
