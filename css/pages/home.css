@@ -78,12 +78,12 @@
 
 @media (min-width: 1200px) {
     .animation-lines {
-        width: 1140px;
+        width: 1200px;
         margin: 0 calc(50% - 570px);
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1400px) {
     .animation-lines {
         width: 1320px;
         margin: 0 calc(50% - 660px);
