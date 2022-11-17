@@ -118,7 +118,7 @@
 
 .services .animation-line-left::before,
 .services .animation-line-center::before,
-.services .animation-line-right,
+.services .animation-line-right::before,
 .lets-talk .animation-line-left::before,
 .lets-talk .animation-line-center::before,
 .lets-talk .animation-line-right::before,
