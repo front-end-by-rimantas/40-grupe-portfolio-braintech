@@ -57,6 +57,20 @@
     overflow-y: hidden;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+.form-container,
+.testimonial-card {
+    z-index: 1;
+    position: relative;
+}
+
 .animation-lines {
     position: absolute;
     left: 0;
@@ -101,7 +115,7 @@
     height: 100%;
     background-color: #ffffff18;
     position: absolute;
-    transform: scaleY(1.6);
+    transform: scaleY(3);
 }
 
 .services .animation-line-left,
@@ -154,7 +168,7 @@
     top: 0;
     right: 0;
     width: 3px;
-    height: 65px;
+    height: 30px;
     background: rgb(247, 241, 241);
     background: linear-gradient(
         180deg,
@@ -163,15 +177,15 @@
         rgba(177, 241, 254, 1) 100%
     );
     transform: translate(1.5px, -80px);
-    animation: dropping 15s infinite linear;
+    animation: dropping 25s infinite linear;
 }
 
 .animation-line-left::before {
-    animation-delay: 3s;
+    animation-delay: 1s;
 }
 
 .animation-line-right::before {
-    animation-delay: 4s;
+    animation-delay: 1.5s;
 }
 
 @keyframes dropping {
