@@ -4,10 +4,11 @@
     left: 0;
     right: 0;
     background-color: transparent;
-    padding-top: .7rem;
-    padding-bottom: .7rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
     overflow: hidden;
     transition: all ease-out 0.3s;
+    z-index: 9999;
 }
 
 .header {
@@ -72,7 +73,6 @@
     overflow: hidden;
 }
 
-
 .nav-link {
     font-size: 15px;
     font-weight: 600;
@@ -128,7 +128,6 @@
         position: fixed;
         background-color: #fff;
         box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
-        z-index: 9999;
     }
 
     .fixed .header-img {
@@ -178,7 +177,7 @@
         border: none;
         padding: 0;
     }
-    
+
     .active {
         color: #bbb;
     }

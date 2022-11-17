@@ -181,7 +181,7 @@ img {
     }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
     .section-subtitle {
         font-size: 27px;
     }
@@ -191,7 +191,7 @@ img {
     }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     .section-subtitle {
         font-size: 36px;
     }

@@ -43,6 +43,12 @@
     grid-column: 1 / span 2;
 }
 
+.hero-img {
+    z-index: 5;
+}
+
+/* video play button */
+
 .video-play {
     background-color: #fff;
     border-radius: 50%;
@@ -51,6 +57,7 @@
     width: 80px;
     cursor: pointer;
     margin-bottom: 1.5rem;
+    position: relative;
 }
 
 .video-play i {
@@ -58,6 +65,61 @@
     color: var(--blue);
     transform: translate(10%, 10%);
     pointer-events: none;
+}
+
+/* video play button animation */
+
+.video-play::before {
+    content: '';
+    width: 80px;
+    height: 80px;
+    transform: scale(1.1);
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    box-shadow: 0 0 0 1px #fff;
+    border-radius: 50%;
+    opacity: 0;
+    animation: circleanimation1 4s infinite ease-out;
+}
+
+.video-play::after {
+    content: '';
+    width: 80px;
+    height: 80px;
+    transform: scale(1.1);
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    box-shadow: 0 0 0 1px #fff;
+    border-radius: 50%;
+    opacity: 0;
+    animation: circleanimation2 4s infinite ease-out;
+    animation-delay: 0.7s;
+}
+
+@keyframes circleanimation1 {
+    0% {
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+    90% {
+        opacity: 0;
+        transform: scale(2.2);
+    }
+}
+
+@keyframes circleanimation2 {
+    0% {
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
 }
 
 .main-title {
@@ -342,7 +404,7 @@
         margin-top: 60px;
         margin-right: 35px;
     }
-    
+
     .intro {
         text-align: left;
     }
