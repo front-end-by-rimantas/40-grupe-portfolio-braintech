@@ -9,6 +9,7 @@
     width: 58px;
     flex-direction: column;
 }
+
 .feature-box > .right-column {
     width: auto;
     flex-direction: column;

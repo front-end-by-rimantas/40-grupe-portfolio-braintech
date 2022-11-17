@@ -6,29 +6,35 @@
     position: relative;
     margin-bottom: 50px;
 }
+
 .quote-img {
-    display: inline-block;
+    display: block;
     width: 50px;
     height: 50px;
     margin-bottom: 10px;
 }
+
 .testimonial-des {
     font-size: 17px;
     line-height: 33px;
 }
+
 .testimonial-author-box {
     display: flex;
     align-items: center;
     gap: 15px;
     position: absolute;
     bottom: -45px;
+    left: 0;
 }
+
 .testimonial-img {
     display: inline-block;
     width: 90px;
     height: 90px;
     border-radius: 50%;
 }
+
 .testimonial-author-name {
     font-size: 22px;
     line-height: 26px;
@@ -36,6 +42,7 @@
     margin-bottom: 8px;
     color: var(--black);
 }
+
 .testimonial-author-position {
     font-size: 16px;
     color: #454545;
