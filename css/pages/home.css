@@ -44,80 +44,69 @@
 }
 
 .hero-img {
-    z-index: 1;
+    z-index: 5;
 }
 
 /* hero animation */
 
-.hero-container > .row {
+.hero-container {
     position: relative;
+    overflow-y: hidden;
+}
+
+.animation-lines {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 97%;
+    margin-left: 1.5%;
+}
+
+@media (min-width: 992px) {
+    .animation-lines {
+        width: 960px;
+        margin: 0 calc(50% - 480px);
+    }
+}
+
+@media (min-width: 1200px) {
+    .animation-lines {
+        width: 1140px;
+        margin: 0 calc(50% - 570px);
+    }
+}
+
+@media (min-width: 1440px) {
+    .animation-lines {
+        width: 1320px;
+        margin: 0 calc(50% - 660px);
+    }
+}
+
+.animation-line-left,
+.animation-line-center,
+.animation-line-right {
+    width: 1px;
+    height: 100%;
+    background-color: #ffffff18;
+    position: absolute;
+    transform: scaleY(1.2);
 }
 
 .animation-line-left {
-    width: 1px;
-    height: 100%;
-    background-color: #ffffff18;
-    position: absolute;
     left: 0;
-    transform: translateY(-60px);
-    transform: scaleY(1.2);
 }
 
 .animation-line-center {
-    height: 100%;
-    width: 1px;
-    background-color: #ffffff18;
-    position: absolute;
     right: 50%;
-    transform: scaleY(1.2);
 }
 
 .animation-line-right {
-    height: 100%;
-    width: 1px;
-    background-color: #ffffff18;
-    position: absolute;
     right: 0;
-    transform: scaleY(1.2);
 }
 
-.animation-line-left::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 3px;
-    height: 65px;
-    background: rgb(247, 241, 241);
-    background: linear-gradient(
-        180deg,
-        rgba(247, 241, 241, 1) 0%,
-        rgba(222, 249, 255, 1) 69%,
-        rgba(177, 241, 254, 1) 100%
-    );
-    transform: translate(1.5px, -80px);
-    animation: dropping 15s infinite linear;
-    animation-delay: 3s;
-}
-
-.animation-line-center::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 50%;
-    width: 3px;
-    height: 65px;
-    background: rgb(248, 248, 248);
-    background: linear-gradient(
-        180deg,
-        rgba(247, 241, 241, 1) 0%,
-        rgba(222, 249, 255, 1) 69%,
-        rgba(177, 241, 254, 1) 100%
-    );
-    transform: translate(1.5px, -80px);
-    animation: dropping 15s infinite linear;
-}
-
+.animation-line-left::before,
+.animation-line-center::before,
 .animation-line-right::before {
     content: '';
     position: absolute;
@@ -134,6 +123,13 @@
     );
     transform: translate(1.5px, -80px);
     animation: dropping 15s infinite linear;
+}
+
+.animation-line-left::before {
+    animation-delay: 3s;
+}
+
+.animation-line-right::before {
     animation-delay: 4s;
 }
 
